@@ -1,0 +1,30 @@
+{
+  "work": [
+
+  ],
+  "education": [
+    {
+      "institution": "Instituto Tecnologico de Acapulco",
+      "degree": "Ingenieria en Sistemas Computacionales",
+      "period": "2020 - 2025",
+      "description": "Especialidad en tecnologias web"
+    },
+    {
+      "certification": "Programa Delfín",
+      "issuer": "INAOE",
+      "year": "2024",
+      "goals": [
+        "Diseñé una app móvil en Android con Kotlin y Jetpack Compose para controlar un robot mediante comandos de voz.",
+        "Integré el firmware del robot, habilitando comunicación y respuesta en tiempo real."
+      ]
+    },
+    {
+      "certification": "InnovaTecNM",
+      "issuer": "Tecnológico Nacional de México",
+      "year": "2024",
+      "goals": [
+        "Desarrollé una app móvil en Kotlin para monitoreo médico, conectada a un glucómetro no invasivo vía Wi-Fi."
+      ]
+    }    
+  ]
+}

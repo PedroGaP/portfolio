@@ -45,7 +45,7 @@
       
       <div class="flex justify-center mt-8">
         <a
-          href="/cv.pdf"
+          href="/cv/cv.pdf"
           class="flex items-center gap-2 px-6 py-3 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700 transition-all duration-300 hover:scale-105"
         >
           <Icon icon="carbon:document-download" class="w-5 h-5" />

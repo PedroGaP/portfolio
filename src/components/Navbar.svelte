@@ -45,7 +45,7 @@
       <a href="#home">
         <div class="w-10 h-10">
           <img
-            src="https://avatars.githubusercontent.com/u/116536708?v=4"
+            src="/cv/profile.png"
             alt="Jaen Nova"
             class="w-full h-full object-cover rounded-full border-2 border-android-light dark:border-python-light"
           />

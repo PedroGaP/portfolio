@@ -25,7 +25,7 @@
         ></div>
         <div class="relative aspect-square w-64 mx-auto">
           <img
-            src="/cv/profile.png"
+            src="profile.png"
             alt="Jaen Nova"
             class="w-full h-full object-cover rounded-full border-4 border-android-light dark:border-python-light shadow-xl"
           />

@@ -11,12 +11,12 @@
     },
     {
       "id": 2,
-      "title": "Fit Track API",
-      "description": "API RESTful construida con FastAPI para la gestión de usuarios, rutinas, ejercicios y estadísticas.",
-      "technologies": ["Python", "FastAPI", "PostgreSQL", "Docker"],
-      "image": "/projects/FitTrackAPILogo.webp",
-      "github": "https://github.com/jaennova/fittrack-fastapi",
-      "live": "https://example.com"
+      "title": "Repo Tech",
+      "description": "Web que ofrece variedad de recursos para desarrolladores, como tutoriales, cursos y herramientas.",
+      "technologies": ["Python", "FastAPI", "PostgreSQL", "Astro", "Svelte", "Tailwind"],
+      "image": "/projects/repotech-logo.webp",
+      "github": "https://github.com/jaennova/repotech",
+      "live": "https://repotech.vercel.app/"
     },
     {
       "id": 3,

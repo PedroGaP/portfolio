@@ -1,0 +1,25 @@
+{
+    "name": "Jaen Nova",
+    "role": "Desarrollador Android & Backend",
+    "profile": {
+        "image": "profile.png",
+        "alt": "Jaen Nova"
+    },
+    "description": "Soy un desarrollador enfocado en desarrollo Android y backend. Con experiencia en el desarrollo de aplicaciones móviles y servicios backend escalables, me esfuerzo por crear soluciones eficientes y amigables que marquen la diferencia.",
+    "cv": "cv.pdf",
+    "contact": {
+        "email": "jaennova@outlook.com",
+        "social": {
+            "github": {
+                "url": "https://github.com/jaennova",
+                "label": "GitHub",
+                "icon": "simple-icons:github"
+            },
+            "linkedin": {
+                "url": "https://linkedin.com/in/jaennova",
+                "label": "LinkedIn",
+                "icon": "simple-icons:linkedin"
+            }
+        }
+    }
+}

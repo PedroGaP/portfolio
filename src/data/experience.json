@@ -1,30 +1,49 @@
 {
   "work": [
-
+    {
+      "position": "Desarrollador Web",
+      "company": "Cliente Privado",
+      "period": "2024",
+      "type": "Freelance",
+      "icon": "simple-icons:astro",
+      "achievements": [
+        "Desarrollé una aplicación web con Astro, Svelte y Tailwind CSS para gestionar servicios de belleza",
+        "Diseñé una API REST con FastAPI y PostgreSQL para gestionar citas y servicios.",
+        "Optimizaciones lograron tiempos de carga <3 segundos en dispositivos móviles y desktop.",
+        "En desarrollo: sistema de reservas interactivo que duplicará la eficiencia del agendamiento."
+      ]
+    }
   ],
   "education": [
     {
-      "institution": "Instituto Tecnologico de Acapulco",
-      "degree": "Ingenieria en Sistemas Computacionales",
-      "period": "2020 - 2025",
-      "description": "Especialidad en tecnologias web"
+      "certification": "Instituto Tecnologico de Acapulco",
+      "issuer": "Ingenieria en Sistemas Computacionales",
+      "year": "2020 - 2025",
+      "icon": "carbon:education",
+      "goals":[
+        "Especialidad en Tecnologias Web"
+      ]
     },
     {
       "certification": "Programa Delfín",
       "issuer": "INAOE",
       "year": "2024",
+      "icon": "carbon:certificate",
       "goals": [
-        "Diseñé una app móvil en Android con Kotlin y Jetpack Compose para controlar un robot mediante comandos de voz.",
-        "Integré el firmware del robot, habilitando comunicación y respuesta en tiempo real."
+        "Desarrollé una aplicación móvil para controlar de forma remota un robot a través de Wi-Fi mediante comandos de voz.",
+        "Creé la aplicación para Android utilizando Kotlin, Jetpack Compose y el patrón de diseño MVVM.",
+        "Integré el firmware con la aplicación, lo que permitió la respuesta de comandos en tiempo real del robot."
       ]
     },
     {
       "certification": "InnovaTecNM",
       "issuer": "Tecnológico Nacional de México",
       "year": "2024",
+      "icon": "carbon:certificate",
       "goals": [
-        "Desarrollé una app móvil en Kotlin para monitoreo médico, conectada a un glucómetro no invasivo vía Wi-Fi."
+        "Desarrollé una aplicación móvil para Android usando Kotlin y Jetpack Compose.",
+        "Conecté la aplicación a un glucómetro no invasivo diseñado a medida a través de Wi-Fi"
       ]
-    }    
+    }
   ]
 }

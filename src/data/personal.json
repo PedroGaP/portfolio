@@ -8,18 +8,23 @@
     "description": "Soy un desarrollador enfocado en desarrollo Android y backend. Con experiencia en el desarrollo de aplicaciones móviles y servicios backend escalables, me esfuerzo por crear soluciones eficientes y amigables que marquen la diferencia.",
     "cv": "cv.pdf",
     "contact": {
-        "email": "jaennova@outlook.com",
-        "social": {
-            "github": {
-                "url": "https://github.com/jaennova",
-                "label": "GitHub",
-                "icon": "simple-icons:github"
-            },
-            "linkedin": {
-                "url": "https://linkedin.com/in/jaennova",
-                "label": "LinkedIn",
-                "icon": "simple-icons:linkedin"
-            }
+        "email": {
+            "icon": "carbon:email",
+            "title": "Email",
+            "value": "jaennova@outlook.com",
+            "link": "mailto:jaennova@outlook.com"
+        },
+        "github": {
+            "icon": "simple-icons:github",
+            "title": "GitHub",
+            "value": "@jaennova",
+            "link": "https://github.com/jaennova"
+        },
+        "linkedin": {
+            "icon": "simple-icons:linkedin",
+            "title": "Linkedin",
+            "value": "@jaennova",
+            "link": "https://linkedin.com/in/jaennova"
         }
     }
 }

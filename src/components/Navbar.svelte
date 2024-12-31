@@ -1,20 +1,25 @@
 <script>
-  import { onMount } from 'svelte';
-  import Icon from '@iconify/svelte';
-  
+  import { onMount } from "svelte";
+  import Icon from "@iconify/svelte";
+  import data from "../data/personal.json";
+
   let isMenuOpen = false;
   let isDark = false;
   let isScrolled = false;
 
   onMount(() => {
-    isDark = document.documentElement.classList.contains('dark');
-    
-    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-      document.documentElement.classList.add('dark');
+    isDark = document.documentElement.classList.contains("dark");
+
+    if (
+      localStorage.theme === "dark" ||
+      (!("theme" in localStorage) &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches)
+    ) {
+      document.documentElement.classList.add("dark");
       isDark = true;
     }
 
-    window.addEventListener('scroll', () => {
+    window.addEventListener("scroll", () => {
       isScrolled = window.scrollY > 20;
     });
   });
@@ -22,31 +27,35 @@
   function toggleTheme() {
     isDark = !isDark;
     if (isDark) {
-      document.documentElement.classList.add('dark');
-      localStorage.theme = 'dark';
+      document.documentElement.classList.add("dark");
+      localStorage.theme = "dark";
     } else {
-      document.documentElement.classList.remove('dark');
-      localStorage.theme = 'light';
+      document.documentElement.classList.remove("dark");
+      localStorage.theme = "light";
     }
   }
 
   const navItems = [
-    { href: '#home', text: 'Inicio', icon: 'carbon:home' },
-    { href: '#about', text: 'Sobre Mí', icon: 'carbon:user' },
-    { href: '#projects', text: 'Proyectos', icon: 'carbon:portfolio' },
-    { href: '#experience', text: 'Educación', icon: 'carbon:education' },
-    { href: '#contact', text: 'Contacto', icon: 'carbon:email' }
+    { href: "#home", text: "Inicio", icon: "carbon:home" },
+    { href: "#about", text: "Sobre Mí", icon: "carbon:user" },
+    { href: "#projects", text: "Proyectos", icon: "carbon:portfolio" },
+    { href: "#experience", text: "Educación", icon: "carbon:education" },
+    { href: "#contact", text: "Contacto", icon: "carbon:email" },
   ];
 </script>
 
-<nav class="fixed w-full backdrop-blur-sm z-50 transition-all duration-300 {isScrolled ? 'bg-white/80 dark:bg-gray-900/80 shadow-lg' : 'bg-transparent'}">
+<nav
+  class="fixed w-full backdrop-blur-sm z-50 transition-all duration-300 {isScrolled
+    ? 'bg-white/80 dark:bg-gray-900/80 shadow-lg'
+    : 'bg-transparent'}"
+>
   <div class="max-w-6xl mx-auto px-4">
     <div class="flex justify-between items-center h-16">
       <a href="#home">
         <div class="w-10 h-10">
           <img
-            src="profile.png"
-            alt="Jaen Nova"
+            src={data.profile.image}
+            alt={data.profile.alt}
             class="w-full h-full object-cover rounded-full border-2 border-android-light dark:border-python-light"
           />
         </div>
@@ -68,11 +77,11 @@
       <!-- Mobile Menu Button -->
       <button
         class="md:hidden"
-        on:click={() => isMenuOpen = !isMenuOpen}
+        on:click={() => (isMenuOpen = !isMenuOpen)}
         aria-label="Toggle menu"
       >
-        <Icon 
-          icon={isMenuOpen ? "carbon:close" : "carbon:menu"} 
+        <Icon
+          icon={isMenuOpen ? "carbon:close" : "carbon:menu"}
           class="w-6 h-6"
         />
       </button>
@@ -85,7 +94,7 @@
           <a
             href={item.href}
             class="flex items-center gap-3 px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-android-light dark:hover:text-android-light transition-colors"
-            on:click={() => isMenuOpen = false}
+            on:click={() => (isMenuOpen = false)}
           >
             <Icon icon={item.icon} class="w-5 h-5" />
             {item.text}

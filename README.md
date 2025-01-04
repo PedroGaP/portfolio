@@ -29,8 +29,8 @@
 Sigue estos pasos para comenzar a usar el portfolio:
 
 ```bash
-git clone https://github.com/jaennova/portfolio-svelte.git
-cd portfolio-svelte
+git clone https://github.com/jaennova/portfolio.git
+cd portfolio
 npm install
 npm run dev
 ```

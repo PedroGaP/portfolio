@@ -54,7 +54,7 @@
       <a href="#home">
         <div class="w-10 h-10">
           <img
-            src={data.profile.image}
+            src={"/icon.ico"}
             alt={data.profile.alt}
             class="w-full h-full object-cover rounded-full border-2 border-android-light dark:border-python-light"
           />

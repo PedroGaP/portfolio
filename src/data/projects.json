@@ -14,10 +14,6 @@
           "isMain": false
         },
         {
-          "name": "Kotlin",
-          "isMain": true
-        },
-        {
           "name": "Room",
           "isMain": false
         }
@@ -28,37 +24,21 @@
     },
     {
       "id": 2,
-      "title": "Repo Tech",
-      "description": "Web que ofrece variedad de recursos para desarrolladores, como tutoriales, cursos y herramientas.",
+      "title": "Gluvida",
+      "description": "Aplicación Android que se conecta a un glucometro no invasivo para monitorear los niveles de glucosa en sangre.",
       "technologies": [
         {
-          "name": "Python",
+          "name": "Android",
           "isMain": true
         },
         {
-          "name": "FastAPI",
+          "name": "JetpackCompose",
           "isMain": true
-        },
-        {
-          "name": "PostgreSQL",
-          "isMain": false
-        },
-        {
-          "name": "Astro",
-          "isMain": true
-        },
-        {
-          "name": "Svelte",
-          "isMain": true
-        },
-        {
-          "name": "Tailwind",
-          "isMain": false
         }
       ],
-      "image": "/projects/repotech-logo.webp",
-      "github": "https://github.com/jaennova/repotech",
-      "live": "https://repotech.vercel.app/"
+      "image": "/projects/GluvidaLogo.webp",
+      "github": null,
+      "live": null
     },
     {
       "id": 3,
@@ -81,6 +61,50 @@
       "image": "/projects/BeautySphereLogo.webp",
       "github": "https://github.com/jaennova/beauty-salon",
       "live": "https://beautyysalon.netlify.app"
+    },
+    {
+      "id": 4,
+      "title": "Robovox",
+      "description": "Aplicacion Android para controlar de manera remota a un robot mediante WiFi",
+      "technologies": [
+        {
+          "name": "Android",
+          "isMain": true
+        },
+        {
+          "name": "JetpackCompose",
+          "isMain": true
+        }
+      ],
+      "image": "/projects/RobovoxLogo.webp",
+      "github": null,
+      "live": null
+    },
+    {
+      "id": 5,
+      "title": "Repo Tech",
+      "description": "Web que ofrece variedad de recursos para desarrolladores, como tutoriales, cursos y herramientas.",
+      "technologies": [
+        {
+          "name": "FastAPI",
+          "isMain": true
+        },
+        {
+          "name": "Astro",
+          "isMain": true
+        },
+        {
+          "name": "Svelte",
+          "isMain": true
+        },
+        {
+          "name": "Tailwind",
+          "isMain": false
+        }
+      ],
+      "image": "/projects/repotech-logo.webp",
+      "github": "https://github.com/jaennova/repotech",
+      "live": "https://repotech.vercel.app/"
     }
   ]
 }

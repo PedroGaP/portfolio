@@ -4,7 +4,24 @@
       "id": 1,
       "title": "RecipeBuddy",
       "description": "Aplicación Android para ayudar a los usuarios a gestionar y organizar sus recetas.",
-      "technologies": ["Android", "JetpackCompose", "Kotlin", "Room"],
+      "technologies": [
+        {
+          "name": "Android",
+          "isMain": true
+        },
+        {
+          "name": "JetpackCompose",
+          "isMain": false
+        },
+        {
+          "name": "Kotlin",
+          "isMain": true
+        },
+        {
+          "name": "Room",
+          "isMain": false
+        }
+      ],
       "image": "/projects/RecipeBuddyLogo.webp",
       "github": "https://github.com/KotlinAndroidProjects/RecipeBuddy",
       "live": null
@@ -13,7 +30,32 @@
       "id": 2,
       "title": "Repo Tech",
       "description": "Web que ofrece variedad de recursos para desarrolladores, como tutoriales, cursos y herramientas.",
-      "technologies": ["Python", "FastAPI", "PostgreSQL", "Astro", "Svelte", "Tailwind"],
+      "technologies": [
+        {
+          "name": "Python",
+          "isMain": true
+        },
+        {
+          "name": "FastAPI",
+          "isMain": true
+        },
+        {
+          "name": "PostgreSQL",
+          "isMain": false
+        },
+        {
+          "name": "Astro",
+          "isMain": true
+        },
+        {
+          "name": "Svelte",
+          "isMain": true
+        },
+        {
+          "name": "Tailwind",
+          "isMain": false
+        }
+      ],
       "image": "/projects/repotech-logo.webp",
       "github": "https://github.com/jaennova/repotech",
       "live": "https://repotech.vercel.app/"
@@ -22,7 +64,20 @@
       "id": 3,
       "title": "BeautySphere",
       "description": "Sitio web profesional y moderno para salones de belleza, desarrollado con Astro, Svelte y Tailwind CSS.",
-      "technologies": ["Astro", "Svelte", "Tailwind"],
+      "technologies": [
+        {
+          "name": "Astro",
+          "isMain": true
+        },
+        {
+          "name": "Svelte",
+          "isMain": true
+        },
+        {
+          "name": "Tailwind",
+          "isMain": false
+        }
+      ],
       "image": "/projects/BeautySphereLogo.webp",
       "github": "https://github.com/jaennova/beauty-salon",
       "live": "https://beautyysalon.netlify.app"

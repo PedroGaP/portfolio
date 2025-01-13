@@ -7,6 +7,7 @@
   let selectedTech = "Todos";
   let projects = projectsData.projects;
   let filteredProjects = projects;
+  let showOnlyMain = true;
 
   onMount(() => {
     visible = true;
@@ -29,16 +30,28 @@
 
   $: technologies = [
     "Todos",
-    ...new Set(projects.flatMap((p) => p.technologies)),
+    ...new Set(
+      projects.flatMap((p) =>
+        p.technologies
+          .filter((tech) => (showOnlyMain ? tech.isMain : true))
+          .map((tech) => tech.name),
+      ),
+    ),
   ];
 
   $: filteredProjects =
     selectedTech === "Todos"
       ? projects
-      : projects.filter((p) => p.technologies.includes(selectedTech));
+      : projects.filter((p) =>
+          p.technologies.some((tech) => tech.name === selectedTech),
+        );
 
   function filterProjects(tech) {
     selectedTech = tech;
+  }
+
+  function toggleTechFilter() {
+    showOnlyMain = !showOnlyMain;
   }
 </script>
 
@@ -49,6 +62,18 @@
       : 'opacity-0'} transition-opacity duration-1000"
   >
     <h2 class="text-3xl font-bold mb-8 text-center">Proyectos</h2>
+
+    <div class="flex justify-center mb-4">
+      <button
+        class="text-sm text-gray-600 dark:text-gray-400 hover:text-android-light dark:hover:text-android-light"
+        on:click={toggleTechFilter}
+      >
+        {showOnlyMain
+          ? "Mostrar todas las tecnologías"
+          : "Mostrar tecnologías principales"}
+      </button>
+    </div>
+
     <div class="flex flex-wrap justify-center gap-3 mb-8">
       {#each technologies as tech}
         <button
@@ -88,13 +113,15 @@
             <div class="flex flex-wrap gap-2 mb-4">
               {#each project.technologies as tech}
                 <span
-                  class="flex items-center gap-1 px-3 py-1 text-sm bg-gray-100 dark:bg-gray-800 rounded-full"
+                  class="flex items-center gap-1 px-3 py-1 text-sm {tech.isMain
+                    ? 'bg-android-light/10'
+                    : 'bg-gray-100'} dark:bg-gray-800 rounded-full"
                 >
                   <Icon
-                    icon={techIcons[tech]}
+                    icon={techIcons[tech.name]}
                     class="w-4 h-4 text-android-light dark:text-python-light"
                   />
-                  {tech}
+                  {tech.name}
                 </span>
               {/each}
             </div>

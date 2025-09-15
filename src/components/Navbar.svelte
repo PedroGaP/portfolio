@@ -37,10 +37,10 @@
 
   const navItems = [
     { href: "#home", text: "Inicio", icon: "carbon:home" },
-    { href: "#about", text: "Sobre Mí", icon: "carbon:user" },
-    { href: "#projects", text: "Proyectos", icon: "carbon:portfolio" },
-    { href: "#experience", text: "Educación", icon: "carbon:education" },
-    { href: "#contact", text: "Contacto", icon: "carbon:email" },
+    { href: "#about", text: "Sobre Mím", icon: "carbon:user" },
+    { href: "#projects", text: "Projetos", icon: "carbon:portfolio" },
+    { href: "#experience", text: "Educação", icon: "carbon:education" },
+    { href: "#contact", text: "Contato", icon: "carbon:email" },
   ];
 </script>
 

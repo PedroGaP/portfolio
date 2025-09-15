@@ -20,7 +20,7 @@
         icon="carbon:user-profile"
         class="w-8 h-8 text-android-light dark:text-python-light"
       />
-      <h2 class="text-3xl font-bold">Sobre Mí</h2>
+      <h2 class="text-3xl font-bold">Sobre Mím</h2>
     </div>
 
     <div class="prose dark:prose-invert max-w-none mb-12">
@@ -34,7 +34,7 @@
           class="flex items-center gap-2 px-6 py-3 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700 transition-all duration-300 hover:scale-105"
         >
           <Icon icon="carbon:document-download" class="w-5 h-5" />
-          Descargar CV
+          Transferir CV
         </a>
       </div>
     </div>
@@ -69,7 +69,7 @@
             icon="carbon:user-profile"
             class="w-5 h-5 text-android-light dark:text-python-light"
           />
-          Habilidades Blandas
+          Soft Skills
         </h3>
         <div class="flex flex-wrap gap-3">
           {#each skillData.softSkills as skill}

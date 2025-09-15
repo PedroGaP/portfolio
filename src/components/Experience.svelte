@@ -24,7 +24,7 @@
         <span
           class="bg-gradient-to-r from-android-light to-python-light bg-clip-text text-transparent"
         >
-          Trayectoria Profesional
+          Trajeto Profissional
         </span>
       </h2>
     </div>

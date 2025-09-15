@@ -1,30 +1,30 @@
 {
-    "name": "Jaen Nova",
-    "role": "Desarrollador Android y Backend",
-    "profile": {
-        "image": "profile.png",
-        "alt": "Jaen Nova"
+  "name": "Pedro Guerra",
+  "role": "Programador Mobile e Backend",
+  "profile": {
+    "image": "profile.png",
+    "alt": "Pedro Guerra"
+  },
+  "description": "Sou um programador entusiasta e focado em desenvolvimento Mobile e Backend. Possuo experiência com o desenvolvimento de aplicações mobile e backend utilizando Flutter e Dart com conhecimento para criar produtos escaláveis! Foco-me precisamente em criar soluções eficientes e práticas. ",
+  "cv": "JaenNova_Backend.pdf",
+  "contact": {
+    "email": {
+      "icon": "carbon:email",
+      "title": "Email",
+      "value": "pedroga.personal@gmail.com",
+      "link": "mailto:pedroga.personal@gmail.com"
     },
-    "description": "Soy un desarrollador enfocado en desarrollo Android y Backend. Con experiencia en el desarrollo de aplicaciones móviles y servicios backend escalables, me esfuerzo por crear soluciones eficientes y amigables que marquen la diferencia.",
-    "cv": "JaenNova_Backend.pdf",
-    "contact": {
-        "email": {
-            "icon": "carbon:email",
-            "title": "Email",
-            "value": "jaennova@outlook.com",
-            "link": "mailto:jaennova@outlook.com"
-        },
-        "github": {
-            "icon": "simple-icons:github",
-            "title": "GitHub",
-            "value": "@jaennova",
-            "link": "https://github.com/jaennova"
-        },
-        "linkedin": {
-            "icon": "simple-icons:linkedin",
-            "title": "Linkedin",
-            "value": "@jaennova",
-            "link": "https://linkedin.com/in/jaennova"
-        }
+    "github": {
+      "icon": "simple-icons:github",
+      "title": "GitHub",
+      "value": "@PedroGaP",
+      "link": "https://github.com/PedroGaP"
+    },
+    "linkedin": {
+      "icon": "simple-icons:linkedin",
+      "title": "Linkedin",
+      "value": "@pedroga07",
+      "link": "https://linkedin.com/in/pedroga07"
     }
+  }
 }

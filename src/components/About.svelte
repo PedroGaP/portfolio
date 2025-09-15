@@ -1,4 +1,4 @@
-<script>
+ <script>
   import { onMount } from "svelte";
   import Icon from "@iconify/svelte";
   import aboutData from "../data/personal.json";

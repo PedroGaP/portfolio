@@ -7,7 +7,7 @@
     <div class="text-center">
       <p class="text-gray-600 dark:text-gray-400">
         © {new Date().getFullYear()}
-        {personalData.name}. Todos los derechos reservados.
+        {personalData.name}. Todos os direitos reservados.
       </p>
       <div class="mt-4 flex justify-center space-x-6">
         <a

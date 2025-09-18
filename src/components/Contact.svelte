@@ -22,7 +22,7 @@
       ? 'opacity-100'
       : 'opacity-0'} transition-opacity duration-1000"
   >
-    <h2 class="text-3xl font-bold mb-12 text-center">Contacto</h2>
+    <h2 class="text-3xl font-bold mb-12 text-center">Contato</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       {#each contactMethods as method}

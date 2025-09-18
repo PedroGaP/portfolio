@@ -1,180 +1,85 @@
+# Portefólio
 
-<div align="center">
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5d5b4cc5-a369-48de-a8c1-5e89469fe771/deploy-status)](https://app.netlify.com/projects/astounding-hamster-44e158/deploys)
 
-# 🌟 Portfolio Personal
+## Descrição
 
-![Portfolio Preview](./public/preview.png)
+Ddesenvolvido com o objetivo de apresentar projetos, experiências e habilidades de forma moderna, responsiva e interativa. O portefólio é ideal para mostrar trabalhos de maneira elegante e profissional.
 
-✨ Un portfolio moderno y personalizable desarrollado con **Astro**, **Svelte** y **TailwindCSS**.
-
-[**🌐 Demo**](https://jaenn.netlify.app) · [🎨 Personalización](./src/data/)
-
-</div>
+O design é minimalista e totalmente responsivo, garantindo uma boa experiência tanto em dispositivos móveis quanto em desktops. Inclui seções como **Sobre**, **Projetos**, **Experiência**, **Habilidades** e **Contato**, além de suporte a **modo claro/escuro** e animações suaves.
 
 ---
 
-## ✨ Características
+## Tecnologias Utilizadas
 
-- **Diseño responsive y minimalista** 📱💻  
-- **Modo oscuro/claro** 🌙☀️  
-- **Animaciones fluidas** 🎥  
-- **Optimizado para SEO** 🚀  
-- **Fácil personalización vía JSON** 🛠️  
-- **Secciones incluidas**: Hero, About, Projects, Experience, Skills, Contact
+- **Astro**: Framework moderno para construção de sites rápidos e otimizados.
+- **Svelte**: Framework para interfaces de usuário reativas.
+- **TailwindCSS**: Framework CSS utilitário para estilização rápida e consistente.
+- **Motion**: Biblioteca para animações fluidas.
+- **Iconify**: Coleção de ícones para complementar o design.
 
 ---
 
-## 🛠️ Instalación
+## Instruções de Instalação
 
-Sigue estos pasos para comenzar a usar el portfolio:
+Para executar o portefólio localmente, siga os passos abaixo:
+
+1. **Clonar o repositório:**
 
 ```bash
 git clone https://github.com/jaennova/portfolio.git
 cd portfolio
+```
+
+2. **Instalar as dependências:**
+
+```bash
 npm install
+```
+
+3. **Iniciar o servidor de desenvolvimento:**
+
+```bash
 npm run dev
 ```
 
----
-
-## 📂 Estructura del Proyecto
-
-```plaintext
-/
-├── src/
-│   ├── components/    # Componentes Svelte
-│   ├── data/          # Configuración JSON
-│   │   ├── personal.json    # Información personal
-│   │   ├── projects.json    # Proyectos
-│   │   ├── experience.json  # Experiencia
-│   │   └── skills.json      # Habilidades
-│   ├── layouts/      # Layouts Astro
-│   └── pages/        # Páginas
-└── public/           # Activos estáticos
-```
+O site ficará disponível em [http://localhost:4321](http://localhost:4321).
 
 ---
 
-## ⚙️ Personalización
+## Deployment
 
-Personaliza tu portfolio editando los archivos JSON en `src/data/`:
+Para realizar o deployment, podes utilizar plataformas como **Netlify**, **Vercel** ou qualquer serviço de hosting compatível com projetos Node.js.
 
-<details>
-<summary><strong>📄 personal.json</strong></summary>
+**Exemplo com Netlify:**
 
-```json
-{
-    "name": "Jhon Doe",
-    "role": "Ingeniero en Sistemas Computacionales",
-    "profile": {
-        "image": "profile.png",
-        "alt": "Jhon Doe"
-    },
-    "description": "lorem ipsum.",
-    "cv": "cv.pdf",
-    "contact": {
-        "email": {
-            "icon": "carbon:email",
-            "title": "Email",
-            "value": "jhon@doe.com",
-            "link": "mailto:jhon@doe.com"
-        }
-    }
-}
-```
-</details>
+1. Criar uma conta em [Netlify](https://www.netlify.com/).
+2. Importar o repositório Git.
+3. Configurar o build command: `npm run build`
+4. Configurar o publish directory: `dist/`
+5. Fazer deploy e obter o link público do portefólio.
 
-<details>
-<summary><strong>📄 projects.json</strong></summary>
-
-```json
-{
-  "projects": [
-    {
-      "id": 1,
-      "title": "Proyecto",
-      "description": "Descripcion del proyecto.",
-      "technologies": ["Android", "JetpackCompose", "Kotlin", "Room"],
-      "image": "/projects/logoproyecto.webp",
-      "github": "https://github.com/usuario/proyecto",
-      "live": "https://linkproyecto.com"
-    },
-  ]
-}
-```
-</details>
-
-<details>
-<summary><strong>📄 experience.json</strong></summary>
-
-```json
-{
-  "work": [
-    {
-      "position": "Desarrollador Web",
-      "company": "Cliente Privado",
-      "period": "2024",
-      "type": "Freelance",
-      "icon": "simple-icons:astro",
-      "achievements": [
-        "algo destacado",
-        "otra cosa destacada.",
-      ]
-    }
-  ],
-  "education": [
-    {
-      "certification": "Universidad",
-      "issuer": "Ingenieria en Sistemas Computacionales",
-      "year": "2020 - 2025",
-      "icon": "carbon:education",
-      "goals":[
-        "Especialidad"
-      ]
-    }
-  ]
-}
-```
-</details>
-
-<details>
-<summary><strong>📄 skills.json</strong></summary>
-
-```json
-{
-    "hardSkills": [{
-        "name": "Habilidad",
-        "icon": "icon-name"
-    }],
-    "softSkills": ["Habilidad 1", "Habilidad 2"]
-}
-```
-</details>
+O portefólio online está disponível em: [https://astounding-hamster-44e158.netlify.app/](https://astounding-hamster-44e158.netlify.app/)
 
 ---
 
-## 🚀 Scripts Disponibles
+## Decisões importantes e desafios
 
-Comandos principales para ejecutar el proyecto:
-
-```bash
-npm run dev      # Modo desarrollo (localhost:4321)
-npm run build    # Generar build de producción
-npm run preview  # Previsualizar build en local
-```
+- **Escolha do Astro + Svelte**: Para combinar desempenho, simplicidade e reatividade.
+- **Uso do TailwindCSS**: Para garantir consistência visual e produtividade na criação de estilos.
+- **Responsividade**: Ajustar todos os elementos para diferentes tamanhos de ecrã foi um desafio, principalmente as animações e o layout de projetos.
+- **Modo claro/escuro**: Implementação pensada para manter legibilidade e estética consistente.
+- **Documentação e JSON configurável**: Facilita a atualização de informações sem precisar alterar o código principal.
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Contribuições
 
-- [**Astro**](https://astro.build) - Framework web  
-- [**Svelte**](https://svelte.dev) - Framework UI  
-- [**TailwindCSS**](https://tailwindcss.com) - Estilos  
-- [**Motion**](https://motion.dev) - Animaciones  
-- [**Iconify**](https://iconify.design) - Iconos  
+Este repositório serve como portefólio pessoal, mas podes usar o template para criar o teu próprio portefólio.
+Sinta-se à vontade para clonar, modificar e adaptar conforme necessário.
 
 ---
 
-## 📄 Licencia
+## Licença
 
-MIT © [**Jaen Nova**](https://github.com/jaennova)
+Este projeto está licenciado sob a licença MIT.

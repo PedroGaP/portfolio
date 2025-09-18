@@ -61,7 +61,7 @@
       ? 'opacity-100'
       : 'opacity-0'} transition-opacity duration-1000"
   >
-    <h2 class="text-3xl font-bold mb-8 text-center">Proyectos</h2>
+    <h2 class="text-3xl font-bold mb-8 text-center">Projetos</h2>
 
     <div class="flex justify-center mb-4">
       <button
@@ -69,8 +69,8 @@
         on:click={toggleTechFilter}
       >
         {showOnlyMain
-          ? "Mostrar todas las tecnologías"
-          : "Mostrar tecnologías principales"}
+          ? "Mostrar todas as tecnologias"
+          : "Mostrar as principais tecnologias"}
       </button>
     </div>
 

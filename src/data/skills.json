@@ -1,51 +1,40 @@
 {
-    "hardSkills": [
-        {
-            "name": "Android",
-            "icon": "simple-icons:android"
-        },
-        {
-            "name": "Kotlin",
-            "icon": "simple-icons:kotlin"
-        },
-        {
-            "name": "Python",
-            "icon": "simple-icons:python"
-        },
-        {
-            "name": "FastAPI",
-            "icon": "simple-icons:fastapi"
-        },
-        {
-            "name": "PostgreSQL",
-            "icon": "simple-icons:postgresql"
-        },
-        {
-            "name": "MongoDB",
-            "icon": "simple-icons:mongodb"
-        },
-        {
-            "name": "Docker",
-            "icon": "simple-icons:docker"
-        },
-        {
-            "name": "Git",
-            "icon": "simple-icons:git"
-        },
-        {
-            "name": "AWS",
-            "icon": "simple-icons:amazonaws"
-        },
-        {
-            "name": "Linux",
-            "icon": "simple-icons:linux"
-        }
-    ],
-    "softSkills": [
-        "Resolución de problemas",
-        "Trabajo en equipo",
-        "Comunicación efectiva",
-        "Aprendizaje continuo",
-        "Adaptabilidad"
-    ]
+  "hardSkills": [
+    {
+      "name": "Flutter",
+      "icon": "simple-icons:flutter"
+    },
+    {
+      "name": "Dart",
+      "icon": "simple-icons:dart"
+    },
+    {
+      "name": "MySql",
+      "icon": "simple-icons:mysql"
+    },
+    {
+      "name": "React Native",
+      "icon": "simple-icons:react"
+    },
+    {
+      "name": "Javascript",
+      "icon": "simple-icons:javascript"
+    },
+    {
+      "name": "Git",
+      "icon": "simple-icons:git"
+    },
+    {
+      "name": "Github",
+      "icon": "simple-icons:github"
+    }
+  ],
+  "softSkills": [
+    "Resolução de problemas",
+    "Trabalho em equipa",
+    "Espontaneidade",
+    "Aprendizagem continua",
+    "Adaptabilidade",
+    "Altruísmo"
+  ]
 }

@@ -2,109 +2,59 @@
   "projects": [
     {
       "id": 1,
-      "title": "RecipeBuddy",
-      "description": "Aplicación Android para ayudar a los usuarios a gestionar y organizar sus recetas.",
+      "title": "RMAAA",
+      "description": "Aplicação mobile cross-platform para ajudar os técnicos de campos agrícolas no seu trabalho do dia-a-dia.",
       "technologies": [
         {
-          "name": "Android",
+          "name": "Flutter",
           "isMain": true
         },
         {
-          "name": "JetpackCompose",
-          "isMain": false
+          "name": "Dart",
+          "isMain": true
         },
         {
-          "name": "Room",
+          "name": "Rest API",
+          "isMain": true
+        },
+        {
+          "name": "Offline-first",
           "isMain": false
         }
       ],
-      "image": "/projects/RecipeBuddyLogo.webp",
-      "github": "https://github.com/KotlinAndroidProjects/RecipeBuddy",
-      "live": null
+      "image": "/projects/rmaaa.jpg",
+      "github": null,
+      "live": "https://rmaaa.pt/#equipa"
     },
     {
       "id": 2,
-      "title": "Gluvida",
-      "description": "Aplicación Android que se conecta a un glucometro no invasivo para monitorear los niveles de glucosa en sangre.",
+      "title": "Pageable Vaden",
+      "description": "Package para a framework Vaden criada pela flutterando brasil para facilitar o manueasamento de dados por lado da API criando paginação nos request com os dados provindo da base de dados ou repositório.",
       "technologies": [
         {
-          "name": "Android",
+          "name": "Flutter",
           "isMain": true
         },
         {
-          "name": "JetpackCompose",
-          "isMain": true
-        }
-      ],
-      "image": "/projects/GluvidaLogo.webp",
-      "github": null,
-      "live": null
-    },
-    {
-      "id": 3,
-      "title": "BeautySphere",
-      "description": "Sitio web profesional y moderno para salones de belleza, desarrollado con Astro, Svelte y Tailwind CSS.",
-      "technologies": [
-        {
-          "name": "Astro",
+          "name": "Dart",
           "isMain": true
         },
         {
-          "name": "Svelte",
+          "name": "Vaden",
           "isMain": true
         },
         {
-          "name": "Tailwind",
+          "name": "Rest API",
           "isMain": false
-        }
-      ],
-      "image": "/projects/BeautySphereLogo.webp",
-      "github": "https://github.com/jaennova/beauty-salon",
-      "live": "https://beautyysalon.netlify.app"
-    },
-    {
-      "id": 4,
-      "title": "Robovox",
-      "description": "Aplicacion Android para controlar de manera remota a un robot mediante WiFi",
-      "technologies": [
-        {
-          "name": "Android",
-          "isMain": true
         },
         {
-          "name": "JetpackCompose",
+          "name": "MySql",
           "isMain": true
         }
       ],
-      "image": "/projects/RobovoxLogo.webp",
-      "github": null,
+      "image": "/projects/pageable_vaden.png",
+      "github": "https://github.com/PedroGaP/pageable_vaden",
       "live": null
-    },
-    {
-      "id": 5,
-      "title": "Repo Tech",
-      "description": "Web que ofrece variedad de recursos para desarrolladores, como tutoriales, cursos y herramientas.",
-      "technologies": [
-        {
-          "name": "FastAPI",
-          "isMain": true
-        },
-        {
-          "name": "Astro",
-          "isMain": true
-        },
-        {
-          "name": "Svelte",
-          "isMain": true
-        },
-        {
-          "name": "Tailwind",
-          "isMain": false
-        }
-      ],
-      "image": "/projects/repotech-logo.webp",
-      "github": "https://github.com/jaennova/repotech",
-      "live": "https://repotech.vercel.app/"
     }
   ]
 }
